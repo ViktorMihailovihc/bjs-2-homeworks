@@ -16,7 +16,9 @@ function getArrayParams(arr) {
   // Задание 2
   function worker(arr) {
    let sum = null;
-   arr.forEach(item => sum += arr[i]);
+   arr.forEach(each => {
+    sum+=each;
+  });
     return sum;
   }
   
